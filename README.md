@@ -1,6 +1,4 @@
-Icinga plugin to monitor Dexcom bloodsugar values in icinga
-![image](https://github.com/1eriklinde/icinga-dexcom-check/assets/108029729/8fbc9c67-b8be-405f-b6b4-42d90483ab82)
-
+Icinga plugin to monitor Dexcom bloodsugar values in Icinga (https://github.com/Icinga/icinga2)
 
 Requires Pydexcom set up (https://github.com/gagebenne/pydexcom)
 
