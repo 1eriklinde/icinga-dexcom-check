@@ -4,7 +4,7 @@ Icinga plugin to monitor Dexcom bloodsugar values in icinga
 Requires Pydexcom set up (https://github.com/gagebenne/pydexcom)
 
 
-# Thresholds for blood sugar levels in mmol/L
+Thresholds for blood sugar levels in mmol/L:
 LOW_WARNING_THRESHOLD = 4.0
 LOW_CRITICAL_THRESHOLD = 3.0
 HIGH_WARNING_THRESHOLD = 11.0
