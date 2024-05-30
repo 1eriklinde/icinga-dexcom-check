@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 from pydexcom import Dexcom
 
-# Replace with your Dexcom credentials
-DEXCOM_USER = "YOURDEXCOMUSERNAME"
-DEXCOM_PASSWORD = "YOURDEXCOMPASSWORD"
+# Get Dexcom credentials from environment variables
+DEXCOM_USER = os.getenv('DEXCOM_USER')
+DEXCOM_PASSWORD = os.getenv('DEXCOM_PASSWORD')
 
 # Thresholds for blood sugar levels in mmol/L
 LOW_WARNING_THRESHOLD = 4.0
