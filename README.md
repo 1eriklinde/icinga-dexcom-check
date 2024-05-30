@@ -11,7 +11,7 @@ export DEXCOM_USER=YOURDEXCOMUSERNAME
 export DEXCOM_PASSWORD=YOURDEXCOMPASSWORD
 
 
-Thresholds for blood sugar levels in mmol/L:
+**Thresholds for blood sugar levels in mmol/L:**
 
   LOW_CRITICAL_THRESHOLD = 3.0
   
