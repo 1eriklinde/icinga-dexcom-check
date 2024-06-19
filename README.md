@@ -7,8 +7,8 @@ Requires Pydexcom (https://github.com/gagebenne/pydexcom)
 
 **Note:** Set up environmental variables for your Dexcom username and password to avoid having them in plaintext:
 
-export DEXCOM_USER=YOURDEXCOMUSERNAME<br>
-export DEXCOM_PASSWORD=YOURDEXCOMPASSWORD
+export DEXCOM_USER="YOURDEXCOMUSERNAME"<br>
+export DEXCOM_PASSWORD="YOURDEXCOMPASSWORD"
 
 
 **Thresholds for blood sugar levels in mmol/L:**
